@@ -1,6 +1,6 @@
 An app demonstrating how to use [`solid-apollo`](https://github.com/travis/solid-apollo)
 
-Check out [src/App.js](App.js) for example code.
+Check out [App.js](src/App.js) for example code.
 
 ## Available Scripts
 
