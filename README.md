@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An app demonstrating how to use [`solid-apollo`](https://github.com/travis/solid-apollo)
+
+Check out [master/src/App.js](App.js) for example code.
 
 ## Available Scripts
 
