@@ -5,9 +5,7 @@ import { SolidLink } from 'solid-apollo';
 import { InMemoryCache } from 'apollo-cache-inmemory';
 import gql from "graphql-tag";
 
-import logo from './logo.svg';
 import './App.css';
-
 
 const context = {
   "@context": {
@@ -31,12 +29,12 @@ function Profile() {
   )
 }
 
-function App() {
-  const client = new ApolloClient({
-    cache: new InMemoryCache({ addTypename: false }),
-    link: new SolidLink(context, ["https://tvachon.inrupt.net/profile/card#me"])
-  })
+const client = new ApolloClient({
+  cache: new InMemoryCache({ addTypename: false }),
+  link: new SolidLink(context, ["https://tvachon.inrupt.net/profile/card#me"])
+})
 
+function App() {
   return (
     <div className="App">
       <header className="App-header">
